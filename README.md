@@ -20,7 +20,7 @@ On this deck's revenue and MAU estimates, BGMI earns about 1.45x more revenue pe
 
 1. **Stabilize and communicate.** Survey respondents most often selected server stability, bug fixes, and performance as priorities, far ahead of new content. Make reliability fixes visible before spending on demand.
 2. **Reactivate.** Use the esports audience as a reactivation channel for lapsed players (a hypothesis to validate).
-3. **Recruit and monetize.** Widen the paying funnel with frequent, low-ticket purchase moments, and extend BGMI's creation mode into a creator cosmetics marketplace with a 30-50% creator revenue share.
+3. **Recruit and monetize.** Widen the paying funnel with frequent, low-ticket purchase moments, and extend BGMI's creation mode into a creator cosmetics marketplace with a 30-50% creator revenue share. The recruit cohort is 13 to 18, which under DPDP Act 2023 Section 9 is composed entirely of minors: verifiable parental consent is required, and behavioural tracking, profiling and targeted advertising are prohibited regardless of consent. That motion therefore runs on contextual placement and creator-organic reach only, which is part of why it is sequenced last.
 
 ## Selected slides
 
@@ -48,8 +48,9 @@ On this deck's revenue and MAU estimates, BGMI earns about 1.45x more revenue pe
 I designed and ran the survey (n = 1,257) and conducted 50 semi-structured interviews with active and lapsed players. The data cleaning, PostgreSQL model, SQL analysis, and Tableau dashboards are in the companion repo: [product-analytics-user-experience](https://github.com/naveen-raj-kanagaraj/product-analytics-user-experience).
 
 Notes on method:
-- The priority question was multi-select, so counts exceed the number of respondents.
+- The priority question was multi-select, so counts exceed the number of respondents. Server stability (1,188), bug fixes (1,100) and performance (1,079) were each selected by 86-95% of respondents. The gap to new content (227) and new maps (195) is large and robust; the ordering within the top three is not, and I do not claim it.
 - Experience scores compare respondent groups within one survey, not the same players over time.
+- The deck's 6.8 vs 3.7 experience comparison reports the two endpoints of a six-level server-error scale, and the "never" cell is small (n=5). The gradient is monotonic across all six levels and holds on the well-populated groups: 6.5 for players seeing errors monthly or less (n=82) versus 3.7 for near-daily (n=904), Welch t=8.83, p<0.001.
 - About 73% of survey respondents are daily players; lapsed-player views come mainly from the interviews.
 - Attachment is proxied by developer trust, so cohort boundaries are hypotheses.
 
@@ -67,6 +68,11 @@ Notes on method:
 - Valorant Mobile availability (China-only): [Turbosmurfs](https://turbosmurfs.gg/article/valorant-mobile-release-date)
 - Regulation: Promotion and Regulation of Online Gaming Act, 2025; Digital Personal Data Protection Act, 2023
 - Revenue and MAU benchmarks: third-party estimates compiled from Sensor Tower data. Figures vary by source and should be read as directional.
+
+## Revisions
+
+- **September 22, 2026.** Re-exported the deck to fix two text duplications on slides 1 and 2, caused by Helvetica Neue being substituted with Arial on export, which pushed a word onto the line-wrap boundary. Added explicit line breaks so the layout no longer depends on the renderer. No figures or claims changed.
+- **September 20, 2026.** First version.
 
 ## Files
 
